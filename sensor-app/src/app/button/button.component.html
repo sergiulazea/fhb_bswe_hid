@@ -1,0 +1,7 @@
+<button mat-raised-button color="primary"
+  (click)="onClick()"
+>
+ Daten erfassen
+ <mat-icon *ngIf="!isOpen">keyboard_arrow_down</mat-icon>
+ <mat-icon *ngIf="isOpen">keyboard_arrow_up</mat-icon>
+</button>
